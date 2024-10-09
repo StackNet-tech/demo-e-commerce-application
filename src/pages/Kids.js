@@ -3,6 +3,16 @@ import React from 'react';
 const Kids = () => {
   return (
     <div>
+
+<div class="p-4 max-w-xl rounded-lg border-l-4 border-teal-400 bg-gradient-to-r from-teal-100/50 to-white">
+  <p class="text-xl font-semibold text-gray-800">
+  Kids' Section
+  </p>
+  <p class="mt-1 text-gray-700">
+  Fun, Fresh, and Full of Style for Little Trendsetters!
+  </p>
+</div>
+
       {/* ✅ Grid Section - Starts Here 👇 */}
       <section
         id="Projects"

@@ -3,6 +3,15 @@ import React from 'react';
 const Women = () => {
   return (
     <div>
+      <div class="p-4 max-w-xl rounded-lg border-l-4 border-teal-400 bg-gradient-to-r from-teal-100/50 to-white">
+  <p class="text-xl font-semibold text-gray-800">
+  Women's Section
+  </p>
+  <p class="mt-1 text-gray-700">
+  Discover Your Signature Style - For Every Moment That Matters.
+  </p>
+</div>
+
       {/* ✅ Grid Section - Starts Here 👇 */}
       <section
         id="Projects"

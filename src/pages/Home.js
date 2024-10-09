@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
             <>
-            <section className="px-3 py-5 bg-neutral-100 lg:py-10">
+            <section className="px-3 py-5 lg:py-10">
             <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
             {/* Text Section */}
             <div className="order-2 lg:order-1 flex flex-col justify-center items-center">
@@ -25,6 +25,21 @@ const Home = () => {
             </div>
             </div>
         </section>
+
+
+        <div class="max-w-6xl px-4 mx-auto md:max-w-4xl sm:max-w-2xl sm:px-6">
+    <div class="text-center">
+        <h1
+            class="max-w-md mx-auto text-3xl font-extrabold tracking-normal text-gray-900 sm:text-3xl md:text-5xl lg:text-6xl md:leading-none sm:max-w-xl md:max-w-2xl lg:max-w-4xl">
+            <span class="block">Style Redefined. Shop the Latest Trends Today!</span></h1>
+        <h2
+            class="max-w-md px-12 mx-auto mt-3 font-normal text-gray-500 text-md sm:mt-5 sm:text-md md:mt-5 md:text-xl sm:max-w-xl md:max-w-xl">
+            Discover the latest in fashion at our shop, where style meets affordability. From trendy outfits to timeless pieces, we have something for everyone.
+        </h2>
+    </div>
+</div>
+
+
   
       <div className="relative overflow-hidden bg-white">
       <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
@@ -118,6 +133,26 @@ const Home = () => {
       </div>
     </div>
 
+    <div class="stats-section py-10 px-5">
+        <div
+          class="stats-grid z-20 max-w-5xl rounded-xl bg-[#FF6347] dark:bg-[#4B5563] mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 items-center justify-between md:px-10 gap-x-10 py-10 px-5 lg:px-10 gap-y-5">
+          <div class="col-span-1 md:col-span-3 lg:col-span-1 flex flex-col items-center justify-center gap-y-3">
+            <h2 class="text-3xl md:pb-5 md:text-3xl text-white dark:text-gray-200 font-bold">Join Us to Achieve More</h2>
+          </div>
+          <div class="col-span-1 md:col-span-1 lg:col-span-1 flex flex-col items-center justify-center gap-y-3">
+            <h2 class="text-3xl lg:text-5xl text-white dark:text-gray-200 font-bold">1.2M</h2>
+            <p class="text-center text-sm md:text-base text-white dark:text-gray-400">Members worldwide</p>
+          </div>
+          <div class="col-span-1 md:col-span-1 lg:col-span-1 flex flex-col items-center justify-center gap-y-3">
+            <h2 class="text-3xl lg:text-5xl text-white dark:text-gray-200 font-bold">95%</h2>
+            <p class="text-center text-sm md:text-base text-white dark:text-gray-400">Customer satisfaction rate</p>
+          </div>
+          <div class="col-span-1 md:col-span-1 lg:col-span-1 flex flex-col items-center justify-center gap-y-3">
+            <h2 class="text-3xl lg:text-5xl text-white dark:text-gray-200 font-bold">3500+</h2>
+            <p class="text-center text-sm md:text-base text-white dark:text-gray-400">Transactions processed daily</p>
+          </div>
+        </div>
+      </div>
 
     <section className="flex flex-col lg:h-screen justify-center items-center overflow-scroll">
   <div className="flex flex-wrap mx-auto md:flex-nowrap mt-6 border-t pt-12">

@@ -3,6 +3,14 @@ import React from 'react';
 const Products = () => {
   return (
     <>
+    <div class="p-4 max-w-xl rounded-lg border-l-4 border-teal-400 bg-gradient-to-r from-teal-100/50 to-white">
+  <p class="text-xl font-semibold text-gray-800">
+  Products Section
+  </p>
+  <p class="mt-1 text-gray-700">
+  From Runway to Your Wardrobe: Fashion at Its Best.
+  </p>
+</div>
     <section
         id="Projects"
         className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
